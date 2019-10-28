@@ -31,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
         // Создаём пустой массив для хранения заметок
         final ArrayList<String> notes = new ArrayList<>();
 
-
         // Создаём адаптер ArrayAdapter, чтобы привязать массив к ListView
         final ArrayAdapter<String> adapter;
         adapter = new ArrayAdapter<String>(this,
